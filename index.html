@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Komandna tabla za inventar pića</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#1e40af',
+              'brand-secondary': '#3b82f6',
+              'brand-light': '#dbeafe',
+              'brand-dark': '#1e3a8a',
+              'status-low': '#fefce8',
+              'status-low-text': '#a16207',
+              'status-low-border': '#facc15',
+              'status-out': '#fee2e2',
+              'status-out-text': '#b91c1c',
+              'status-out-border': '#ef4444',
+              'switch-left': '#4ade80',
+              'switch-right': '#fb923c',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #1e3a8a; /* A fallback color that fits the theme */
+      }
+      body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-image: url('https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_5.jpg');
+        background-size: cover;
+        background-position: center;
+        opacity: 0.45;
+        z-index: -1;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.1",
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

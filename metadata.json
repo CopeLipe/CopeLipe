@@ -1,0 +1,5 @@
+{
+  "name": "Komandna tabla za inventar pića",
+  "description": "Veb aplikacija za praćenje inventara pića u realnom vremenu. Osoblje može koristiti komandnu tablu za brzo evidentiranje uzetih pića iz frižidera, a menadžeri mogu dodavati nove zalihe.",
+  "requestFramePermissions": []
+}
